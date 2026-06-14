@@ -1,0 +1,62 @@
+[
+  {
+    "id": "meme-god",
+    "name": "Meme God",
+    "category": "Memes",
+    "price": 499,
+    "originalPrice": 699,
+    "emoji": "😂",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "description": "For the meme lords who rule the internet.",
+    "instamojoLink": "https://www.instamojo.com/inkwala/meme-god/",
+    "inStock": true
+  },
+  {
+    "id": "cricket-king",
+    "name": "Cricket King",
+    "category": "Cricket",
+    "price": 599,
+    "originalPrice": 799,
+    "emoji": "🏏",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "description": "For the cricket fanatics who breathe the game.",
+    "instamojoLink": "https://www.instamojo.com/inkwala/cricket-king/",
+    "inStock": true
+  },
+  {
+    "id": "mahadev",
+    "name": "Mahadev",
+    "category": "Mythology",
+    "price": 549,
+    "originalPrice": null,
+    "emoji": "🔱",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "description": "Divine energy meets street style.",
+    "instamojoLink": "https://www.instamojo.com/inkwala/mahadev/",
+    "inStock": true
+  },
+  {
+    "id": "gym-lion",
+    "name": "Gym Lion",
+    "category": "Gym",
+    "price": 449,
+    "originalPrice": 599,
+    "emoji": "💪",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "description": "Train like a beast, look like a king.",
+    "instamojoLink": "https://www.instamojo.com/inkwala/gym-lion/",
+    "inStock": true
+  },
+  {
+    "id": "bike-legend",
+    "name": "Bike Legend",
+    "category": "Bikes",
+    "price": 649,
+    "originalPrice": 899,
+    "emoji": "🏍️",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "description": "For the riders who live life in the fast lane.",
+    "instamojoLink": "https://www.instamojo.com/inkwala/bike-legend/",
+    "inStock": true
+  }
+]
