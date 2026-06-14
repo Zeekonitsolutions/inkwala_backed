@@ -5,6 +5,47 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// ✅ YEH ADD KARO - Root URL ke liye
+app.get('/', (req, res) => {
+  res.json({
+    status: 'ok',
+    message: 'Inkwala Backend is running!',
+    endpoints: {
+      ping: '/api/ping',
+      products: '/api/products',
+      product: '/api/product/:id',
+      webhook: '/api/instamojo-webhook'
+    }
+  });
+});
+
+// Rest of your code remains same...
+app.get('/api/ping', (req, res) => {
+  res.json({ status: 'ok', message: 'Backend is working!' });
+});
+
+// ... baaki saara code waise hi rahega
+const express = require('express');
+const cors = require('cors');
+const app = express();
+
+app.use(cors());
+app.use(express.json());
+
+// ✅ NEW: Root URL ke liye (yeh add karo)
+app.get('/', (req, res) => {
+  res.json({ 
+    status: 'ok', 
+    message: 'Inkwala Backend is running!',
+    endpoints: [
+      'GET /api/ping',
+      'GET /api/products', 
+      'GET /api/product/:id',
+      'POST /api/instamojo-webhook'
+    ]
+  });
+});
+
 // Test API - Check karne ke liye
 app.get('/api/ping', (req, res) => {
   res.json({ status: 'ok', message: 'Backend is working!' });
